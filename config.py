@@ -74,7 +74,8 @@ keys = [
 
     # Comandos Personalizados
     Key([mod], "m", lazy.spawn("rofi -show drun"), desc="Launch Menu rofi"),
-    Key([mod], "f", lazy.spawn(), desc="Launch Firefox"),
+    Key([mod], "p", lazy.spawn(), desc="Launch Firefox"),
+    Key([mod], "f", lazy.layout.client_to_next(), desc="Launch Firefox"),
     # Comandos Personalizados FIN !!
 
 
